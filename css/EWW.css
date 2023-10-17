@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Coiny', cursive;
+}
+
+.EWW-title {
+    text-align: center;
+}
+
+.EWW-title h2 {
+    font-size: 32px;
+    margin-top: 30px;
+    
+}
+
+.EWW-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img {
+    border: 1px solid #ccc;
+    padding: 0 6px;
+    float: left;
+    width: 50%;
+}
+
+.img:hover {
+    border: 1px solid #434343;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 12px;
+}
+
+.EWW-text {
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.EWW-text {
+    font-size: 16px;
+}
+
+.EWW-text h6 {
+    margin-top: 10px;
+    text-align: center;
+}

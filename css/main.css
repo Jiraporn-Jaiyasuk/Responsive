@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /*border: 1px solid red;*/
+    background-color: #DD8989;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.header-info {
+    background-image: url('../image/bg\ pink1.svg');
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.h-title {
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.h-title h1 {
+    font-size: 40px;
+}
+
+.h-title h2 {
+    font-size: 30px;
+}
+
+.h-title p {
+    font-size: 16px ;
+}
+
+.h-title a {
+    width: 300px;
+    color: #DD8989;
+    background: black;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.h-img {
+    margin-top: 20px;
+}
+
+.powerful-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.pw-video {
+    margin-left: 100px;
+}
+
+.pw-title {
+    margin-top: 90px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.pw-title h2 {
+    font-size: 35px;
+    color: #543C6D;
+}
+
+.pw-img {
+    margin-left: 70px;
+}
+
+.item-text {
+    background-color: black;
+}
+
+.item-text h3 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Akaya Telivigala', cursive;
+}

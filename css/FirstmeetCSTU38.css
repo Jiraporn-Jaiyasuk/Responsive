@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Coiny', cursive;
+}
+
+.fm-text h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(59, 54, 54);
+}
+
+.fm-text p {
+    margin-top: 10px;
+    border: 3px solid rgb(51, 51, 51);
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fm-img2 p{
+    margin-top: 10px;
+    border: 3px solid rgb(51, 51, 51);
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fm-img {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.fm-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fm-img p {
+    text-align: center;
+    color: black;
+}
